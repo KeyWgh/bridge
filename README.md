@@ -7,38 +7,38 @@ Transfer a string form of BBO play to a txt form.
 
 # Using instruction for windows:
 
-- log in [BBO](http://www.bridgebase.com)
+1. Log in [BBO](http://www.bridgebase.com)
 
 
-- Click My BBO —— Results
+2. Click My BBO —— Results
 
-- ![1517327953](pictures/1517327953.png)
+ ![p1](https://github.com/KeyWgh/bridge/blob/master/picture/1517327953.png)
 
-- Choose the play you want to transfer.
+3. Choose the play you want to transfer.
 
-- ![1517328105](pictures/1517328105.png)
+ ![p2](https://github.com/KeyWgh/Bridge/blob/master/picture/1517328105.png)
 
-- Export the play —— link of Handviewer
+4. Export the play —— link of Handviewer
 
-- ![1517328245(1)](pictures/1517328245(1).png)
+ ![p.](https://github.com/KeyWgh/Bridge/blob/master/picture/1517328245(1).png)
 
-- Show —— open in new window
+5. Show —— open in new window
 
-- copy the url of new window to the file you want to use as input, default the input.txt in the same file with the transfer.py.
+6. Copy the url of new window to the file you want to use as input, default the input.txt in the same file with the transfer.py.
 
-- Open command line
+7. Open command line
 
-- cd to the file where transfer.py is
+8. cd to the file where transfer.py is
 
-- ```
-  >>> python transfer.py --input xxx.txt --filename xxx.txt
-  '''
+```
+>>> python transfer.py --input xxx.txt --filename xxx.txt
+```
+  
+   where --input and --filename is optional, default is input.txt and output.txt.
 
-  where --input and --filename is optional, default is input.txt and output.txt.
+   Also you can use -fn for short.
 
-  Also you can use -fn for short.
 
-  ​
 
 # Support and Contact
 

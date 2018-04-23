@@ -1,21 +1,16 @@
-#Transfer a string form of BBO play to a txt form.
+## Welcome to Bridge webpage
 
-Author: Ganghua Wang.
+# Function
 
-Email: keywgh@gmail.com
-
-Version: 0.1
-
-Copyright 2018. All Rights Reserved.
+Transfer a string form of BBO play to a txt form.
 
 
+# Using instruction for windows:
 
-### Using instruction for windows:
-
-- log in http://www.bridgebase.com
+- log in [BBO](http://www.bridgebase.com)
 
 
-- My BBO —— Results
+- Click My BBO —— Results
 
 - ![1517327953](pictures/1517327953.png)
 
@@ -27,7 +22,7 @@ Copyright 2018. All Rights Reserved.
 
 - ![1517328245(1)](pictures/1517328245(1).png)
 
-- show —— open in new window
+- Show —— open in new window
 
 - copy the url of new window to the file you want to use as input, default the input.txt in the same file with the transfer.py.
 
@@ -37,7 +32,7 @@ Copyright 2018. All Rights Reserved.
 
 - ```
   >>> python transfer.py --input xxx.txt --filename xxx.txt
-  ```
+  '''
 
   where --input and --filename is optional, default is input.txt and output.txt.
 
@@ -45,5 +40,8 @@ Copyright 2018. All Rights Reserved.
 
   ​
 
-Welcome to report any bug!
+# Support and Contact
 
+Feel easy to contact me whenever you have any problem with this project. Welcome to report any bug!
+
+Email: ghostw@pku.edu.cn

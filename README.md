@@ -5,7 +5,7 @@
 Transfer a string form of BBO play to a txt form.
 
 
-# Using instruction for windows:
+# Usage instruction for Windows:
 
 1. Log in [BBO](http://www.bridgebase.com)
 
@@ -28,20 +28,19 @@ Transfer a string form of BBO play to a txt form.
 
 7. Open command line
 
-8. cd to the file where transfer.py is
+8. cd to the file where `transfer.py` is
 
 ```
 >>> python transfer.py --input xxx.txt --filename xxx.txt
 ```
   
-   where --input and --filename is optional, default is input.txt and output.txt.
+   where --input and --filename(-fn for short) is optional, default is input.txt and output.txt.
 
-   Also you can use -fn for short.
 
 
 
 # Support and Contact
 
-Feel easy to contact me whenever you have any problem with this project. Welcome to report any bug!
+Feel free to contact me if you have any questions with this program.
 
 Email: ghostw@pku.edu.cn
